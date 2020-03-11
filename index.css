@@ -1,0 +1,243 @@
+.banner {
+  padding: 7px 0px;
+  background-color: #f4f4f4;
+}
+
+.banner .realbanner {
+  height: 400px;
+  width: 100%;
+  background: url("banner.jpg");
+  background-size: 100% 400px;
+}
+
+.banner .realbanner .bannertext {
+  float: right;
+  margin: 1% 10%;
+  font-size: 25px;
+}
+
+.banner .realbanner .bannertext h2 {
+  background-color: #3c3cec;
+  color: white;
+}
+
+.banner .realbanner .bannertext p {
+  font-size: 17px;
+  color: black;
+}
+
+.banner .realbanner .bannertext .bannerbutton {
+  margin-top: 30px;
+  height: 30px;
+  width: 130px;
+  padding: 5px 0px 5px 0px;
+  border: 2px solid #3c3cec;
+  border-radius: 5px;
+  color: #3c3cec;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner .realbanner .bannertext .bannerbutton:hover {
+  background-color: #3c3cec;
+  color: white;
+}
+
+.cards {
+  height: 320px;
+  padding-top: 50px;
+  margin: 0px 0px 0px 5%;
+}
+
+.cards .card {
+  height: 250px;
+  width: 20%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.cards .card a {
+  text-decoration: none;
+  color: white;
+}
+
+.cards .card a .cardimage {
+  height: 92%;
+}
+
+.cards .card a .cardimage img {
+  height: 100%;
+  width: 100%;
+}
+
+.cards .card a .cardfooter {
+  height: 8%;
+  background-color: black;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 13px;
+}
+
+.cards .card:hover .cardfooter {
+  background-color: #3c3cec;
+  color: white;
+}
+
+.sneakerdiv {
+  height: 500px;
+  margin: 70px 0px 0px 5%;
+}
+
+.sneakerdiv .sneaker {
+  width: 30%;
+  display: inline-block;
+}
+
+.sneakerdiv .sneaker .sneakerbutton {
+  width: 100px;
+  padding: 7px;
+  border: 2px solid #3c3cec;
+  border-radius: 5px;
+  color: #3c3cec;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sneakerdiv .sneaker .sneakerbutton:hover {
+  background-color: #3c3cec;
+  color: white;
+}
+
+.sneakerdiv .sneaker img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sneakerdiv .sales {
+  width: 70%;
+  float: right;
+}
+
+.sneakerdiv .sales .salescards {
+  padding-top: 0px;
+  margin: 0px 0px 0px 5%;
+}
+
+.sneakerdiv .sales .salescards .salescard {
+  height: 250px;
+  width: 20%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.sneakerdiv .sales .salescards .salescard a {
+  text-decoration: none;
+  color: black;
+}
+
+.sneakerdiv .sales .salescards .salescard a .add {
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin: -22px 2px 0px 0px;
+  padding: 4px 6px 4px 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.sneakerdiv .sales .salescards .salescard a .add:hover {
+  background-color: black;
+  color: white;
+}
+
+.sneakerdiv .sales .salescards .salescard a .salescardimage {
+  height: 82%;
+}
+
+.sneakerdiv .sales .salescards .salescard a .salescardimage img {
+  height: 100%;
+  width: 100%;
+}
+
+.sneakerdiv .sales .salescards .salescard a .salescardfooter {
+  height: 18%;
+  text-align: left;
+  padding-top: 6px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.sneakerdiv .sales .salescards .salescard a .salescardfooter:hover{
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 250px;
+  height: 200px;
+  width: 100%;
+}
+
+.footer .first {
+  height: 85%;
+  background-color: #161515;
+  text-align: center;
+}
+
+.footer .first .socialhandles {
+  height: 50px;
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 10px;
+}
+
+.footer .first .socialhandles h2 {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footer .first .socialhandles a {
+  color: white;
+  font-size: 25px;
+  padding: 0px 20px;
+}
+
+.footer .first .socialhandles a .fa {
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  padding: 11px 8px 6px 8px;
+  border-radius: 50px;
+}
+
+.footer .first .socialhandles .fa:hover {
+  background-color: #3c3cec;
+}
+
+.footer .second {
+  height: 15%;
+  background-color: black;
+}
+
+.footer .second ul {
+  margin: 0px 5%;
+  padding-top: 5px;
+}
+
+.footer .second ul li {
+  display: inline-block;
+  padding-right: 7%;
+}
+
+.footer .second ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.footer .second ul li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,36 @@
+.form {
+  height: 460px;
+  width: 30%;
+  margin: 3% 35% 0 35%;
+  border: 2px solid black;
+}
+
+.form h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.form input {
+  margin: 3% 5% 3% 4%;
+  padding-left: 8px;
+  height: 20px;
+  width: 90%;
+  font-size: 13px;
+  border: 1px solid black;
+}
+
+.form .send {
+  height: 15px;
+  width: 40px;
+  padding: 10px;
+  margin: 23px 43%;
+  border: 1px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.form .send:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=contact.css.map */

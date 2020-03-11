@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.productlisting {
+  margin: 30px 0px 0px 5%;
+}
+
+.productlisting .sales {
+  width: 100%;
+  float: right;
+}
+
+.productlisting .sales .salescards {
+  padding-top: 0px;
+  margin: 80px 0px 0px 2%;
+}
+
+.productlisting .sales .salescards .salescard {
+  height: 290px;
+  width: 20%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.productlisting .sales .salescards .salescard a {
+  text-decoration: none;
+  color: black;
+}
+
+.productlisting .sales .salescards .salescard a .price {
+  padding-top: 11px;
+  font-size: 22px;
+}
+
+.productlisting .sales .salescards .salescard a .add {
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin: -8px 10px 0px 0px;
+  padding: 4px 6px 4px 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.productlisting .sales .salescards .salescard a .add:hover {
+  background-color: black;
+  color: white;
+}
+
+.productlisting .sales .salescards .salescard a .salescardimage {
+  height: 80%;
+}
+
+.productlisting .sales .salescards .salescard a .salescardimage img {
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px dotted black;
+  padding-bottom: 48px;
+}
+
+.productlisting .sales .salescards .salescard a .salescardfooter {
+  height: 20%;
+  text-align: left;
+  padding-top: 6px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.productlisting .sales .salescards .salescard a .salescardfooter:hover{
+  text-decoration: underline;
+}
+
+.cartlisting {
+  margin: 60px 0px 0px 0px;
+  height: 200px;
+  width: 100%;
+}
+
+.cartlisting .total {
+  font-weight: bolder;
+  font-size: 23px;
+  float: left;
+  margin-left: 125px;
+  margin-top: -22px;
+}
+
+.cartlisting .totalprice {
+  font-weight: bolder;
+  font-size: 23px;
+  float: right;
+  margin-right: 18%;
+  margin-top: -22px;
+}
+
+.cartlistings {
+  margin: 0px 0px 0px 0px;
+  height: 200px;
+  width: 100%;
+}
+
+.cartlistings .cartcard {
+  width: 80%;
+  height: 150px;
+  border-bottom: 3px dotted black;
+  margin: 25px 0px 0px 6%;
+  padding-bottom: 10px;
+}
+
+.cartlistings .cartcard img {
+  display: inline-block;
+  height: 150px;
+  width: auto;
+}
+
+.cartlistings .cartcard div {
+  position: absolute;
+  margin: 20px 150px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.cartlistings .cartcard .button {
+  display: inline-block;
+  margin: 65px 0px 0px 500px;
+}
+
+.cartlistings .cartcard .button .value {
+  height: 17px;
+  width: 17px;
+  text-align: center;
+}
+
+.cartlistings .cartcard .remove {
+  position: absolute;
+  right: 75px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.cartlistings .cartcard .price {
+  position: absolute;
+  margin-top: 70px;
+  right: 75px;
+}
+
+.cartlistings .cartcard .buynow {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 107px;
+  right: 75px;
+  font-size: 18px;
+  border: 2px solid #3c3cec;
+  border-radius: 7px;
+  padding: 5px;
+  color: #3c3cec;
+}
+
+.cartlistings .cartcard .buynow:hover {
+  background-color: #3c3cec;
+  color: white;
+}
+/*# sourceMappingURL=products.css.map */

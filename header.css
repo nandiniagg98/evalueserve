@@ -1,0 +1,179 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+  
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #3c3cec;
+}
+  
+.header .items {
+    padding: 7px 15%;
+}
+
+.header .items .logo a img {
+    height: 28px;
+    width: 28px;
+    float: left;
+}
+
+.header .items #search {
+    float: right;
+    height: 35px;
+    width: 60%;
+    padding: 0px 10px;
+    border: none;
+}
+
+.header .items .search-icon {
+    float: right;
+    height: 28px;
+    width: 35px;
+    background-color: white;
+    margin-right: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+    color: #3c3cec;
+}
+
+.header .items a.login {
+    float: right;
+    text-decoration: none;
+}
+
+.header .items a.login .innerlogin {
+    height: 18px;
+    width: 50px;
+    padding: 5px 25px;
+    font-size: 16px;
+    background-color: white;
+    font-weight: bold;
+    color: #3c3cec;
+    margin-right: 35px;
+    margin-top: 4px;
+}
+
+.header .items a.cart {
+    float: right;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+.header .items a.cart .innercart {
+    margin-top: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.header .items a.cart .innercart i {
+    font-size: 20px;
+}
+  
+.nav {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    -webkit-box-shadow: 0 7px 15px -11px #ddd;
+            box-shadow: 0 7px 15px -11px #ddd;
+    border-bottom: 1px solid #dadada;
+}
+
+.nav .navitems {
+    margin: 0px 10%;
+}
+
+.nav .navitems ul li {
+    display: inline-block;
+    margin: 0px 5% 10px 5%;
+}
+  
+.nav .navitems ul li a:hover {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #3c3cec;
+    color: #3c3cec;
+}
+  
+.nav .navitems ul li a {
+    text-decoration: none;
+    color: #161515;
+    font-weight: bold;
+    font-size: 13px;
+}
+  
+.nav .navitems ul li a i {
+    color: #3c3cec;
+}
+
+.footer {
+  margin-top: 250px;
+  height: 200px;
+  width: 100%;
+}
+
+.footer .first {
+  height: 85%;
+  background-color: #161515;
+  text-align: center;
+}
+
+.footer .first .socialhandles {
+  height: 50px;
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 10px;
+}
+
+.footer .first .socialhandles h2 {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footer .first .socialhandles a {
+  color: white;
+  font-size: 25px;
+  padding: 0px 20px;
+}
+
+.footer .first .socialhandles a .fa {
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  padding: 11px 8px 6px 8px;
+  border-radius: 50px;
+}
+
+.footer .first .socialhandles .fa:hover {
+  background-color: #3c3cec;
+}
+
+.footer .second {
+  height: 15%;
+  background-color: black;
+}
+
+.footer .second ul {
+  margin: 0px 5%;
+  padding-top: 5px;
+}
+
+.footer .second ul li {
+  display: inline-block;
+  padding-right: 7%;
+}
+
+.footer .second ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.footer .second ul li a:hover {
+  text-decoration: underline;
+}

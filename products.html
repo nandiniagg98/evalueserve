@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="header">
+                <div class="items">
+                    <div class="logo"><a href="index.html"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\logo.png"></a></div>
+                    <a href="#" class="cart"><div class="innercart" onclick="scrolld()"><i class="fa fa-shopping-cart"></i> Cart</div></a>
+                    <!-- <a href="#" class="cart"><div class="innercart"><i class="fa fa-opencart"></i> Cart</div></a> -->
+                    <a href="#" class="login"><div class="innerlogin">Log in</div></a>
+                    <div class="search"><div class="search-icon fa fa-search"></div><input type="search" name="search" id="search"></div>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="navitems">
+                    <ul>
+                        <li><a href="#">Woman <i class="fa fa-arrow-down"></i></a></li>
+                        <li><a href="#">Men <i class="fa fa-arrow-down"></i></a></li>
+                        <li><a href="#">Kids <i class="fa fa-arrow-down"></i></a></li>
+                        <li><a href="#">Brands <i class="fa fa-arrow-down"></i></a></li>
+                        <li><a href="#">Sales <i class="fa fa-arrow-down"></i></a></li>
+                        <li><a href="#">Departments <i class="fa fa-arrow-down"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="productlisting">
+                <div class="sales">
+                    <div class="salescards" style="margin-top: 25px;">
+                        <h1 style="margin-bottom: 40px;">Product Listing</h1>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-1.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Nike</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-2.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Adidas</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-3.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Reebok</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-4.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Puma</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                    </div>
+                    <div class="salescards">
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-5.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Nike</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-6.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Nike</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-7.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Nike</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-8.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Nike</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                    </div>
+                    <div class="salescards">
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-9.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Reebok</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-10.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Reebok</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-11.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Reebok</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-12.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Reebok</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                    </div>
+                    <div class="salescards">
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-13.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Adidas</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-14.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Adidas</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-15.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Adidas</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-16.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Adidas</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                    </div>
+                    <div class="salescards">
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\sneaker.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Puma</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\card1.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Puma</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\card2.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Puma</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                        <div class="salescard">
+                            <a href="#"><div class="salescardimage"><img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\card3.jpg"></div></a>
+                            <a href="#"><div class="salescardfooter">Product Name<br><div style="margin: 5px 0px 5px 0px; font-weight: bold;">Brand-Puma</div><div class="price">$19.99</div></div></a>
+                            <a style="cursor: pointer;"><div class="add fa fa-cart-plus" onclick="addButton()"></div></a>
+                        </div>
+                    </div>
+                    <div class="cartlisting">
+                        <h1>Your Cart</h1>
+                        <div class="cartlistings">
+                            <div class="cartcard">
+                                <img src="C:\Users\HP\Desktop\ecommerce evalueserve\Images\item-1.jpg">
+                                <div>Product Name<br><br><b>Brand</b><br><br>5 Star</div>
+                                <div class="button">
+                                    <button class="button1" onclick="decprice()">-</button>
+                                    <input type="text" class="value" value="1">
+                                    <button class="button2" onclick="totalprice()">+</button>
+                                </div>
+                                <div class="remove">Remove</div>
+                                <div class="price">$19.99</div>
+                                <div class="buynow" onclick="buy()">Buy Now</div>
+                            </div>
+                        </div>
+                        <div class="total">Total</div>
+                        <div class="totalprice">$19.99</div>
+                    </div>
+                </div>
+            </div>
+
+<!---------------- FOOTER ------------------>
+
+            <div class="footer" style="margin-top: 2100px;">
+                <div class="first">
+                    <div class="socialhandles">
+                        <h2>Contact Us:</h2>
+                        <a href="contact.html" title="E-mail Us"><div class="fa fa-mail-forward"></div></a>
+                        <a href=""><div class="fa fa-facebook"></div></a>
+                        <a href=""><div class="fa fa-instagram"></div></a>
+                        <a href=""><div class="fa fa-youtube"></div></a>
+                        <a href=""><div class="fa fa-pinterest"></div></a>
+                    </div>
+                </div>
+                <div class="second">
+                    <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Fur Policy</a></li>
+                        <li><a href="#">Interest-Based Ads</a></li>
+                        <li><a href="#">24/7 Customer Service 123-456-7890</a></li>
+                        <li><a href="#">Copyrights 2020 ©</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
